@@ -1,0 +1,35 @@
+.cargoMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #cc0000;
+}
+
+.tankerMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #00802b;
+}
+
+.passengersMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #000080;
+}
+
+.highSpeedMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #800080;
+}
+
+.fishingMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #009999;
+}
+
+.sailingMarker {
+	border-radius: 120px;
+	opacity: .75;
+	background-color: #808000;
+}
