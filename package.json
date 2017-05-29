@@ -1,0 +1,11 @@
+{
+  "name": "luca_andrei",
+  "private": true,
+  "devDependencies": {
+    "jasmine" : "1.3.0",
+    "karma-jasmine" : "0.1.0",
+    "karma" : "0.9",
+    "karma-chrome-launcher" : "*",
+    "angular-mocks" : "1.3.20"
+  }
+}
