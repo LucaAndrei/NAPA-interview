@@ -1,6 +1,6 @@
 (function(angular) {
 
-	var ShipController = function($scope, ShipFactory) {
+	angular.module("myApp").controller("ShipController", ['$scope', 'ShipFactory', function($scope, ShipFactory) {
 		$scope.minTonnage = 0;
 		$scope.maxTonnage = 1000;
 		$scope.markers = [];
@@ -149,8 +149,5 @@
 			})
 			console.log("$scope.markers", $scope.markers)
 		}
-	};
-
-	ShipController.$inject = [ '$scope', 'ShipFactory' ];
-	angular.module("myApp").controller("ShipController", ShipController);
+	}]);
 }(angular));
